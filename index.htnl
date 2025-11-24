@@ -1,0 +1,48 @@
+let temperature = 90;
+let timeOfDay = "morning";
+let soilMoisture = 30;
+
+temperature = 85;
+timeOfDay = "morning";
+soilMoisture = 10;
+if (temperature > 80) {
+    console.log("Watering on");     
+} else {
+    console.log("Watering off");
+}
+
+if (soilMoisture >=40)  {
+    console.log(40);
+} else {
+
+    console.log(10);
+}
+while (soilMoisture < 40) {
+    soilMoisture += 5;
+    console.log(soilMoisture);
+}
+if (soilMoisture > 40) soilMoisture = 40;
+console.log(soilMoisture);
+const isEvening = timeOfDay === "evening";
+if (isEvening) {
+    
+    console.log("Lights on");
+} else {
+    console.log("Lights off");
+}
+if (soilMoisture >= 40) {
+    console.log(40);
+} else {
+    console.log(10);
+}
+while (soilMoisture < 40) {
+    soilMoisture += 5;
+    console.log(soilMoisture);
+}  
+if (soilMoisture > 40) soilMoisture = 40;
+console.log(soilMoisture);
+if (temperature > 80) {
+    console.log("watering on");     
+} else {
+    console.log("watering off");
+}
